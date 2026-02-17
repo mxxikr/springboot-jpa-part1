@@ -20,38 +20,38 @@
 
 ### 📝 Curriculum
 
-1. **프로젝트 환경설정**
+1. [**프로젝트 환경설정**](https://mxxikr.github.io/posts/spring-boot-jpa-project-setup/)
    * 스프링 부트 라이브러리 구성 및 View(Thymeleaf) 환경 설정
    * H2 데이터베이스 설치 및 JPA/DB 연동 동작 확인
 
 
-2. **도메인 분석 설계**
+2. [**도메인 분석 설계**](https://mxxikr.github.io/posts/spring-boot-jpa-domain-analysis/)
    * 요구사항 분석에 따른 도메인 모델과 테이블 설계(ERD)
    * 엔티티 클래스 개발 및 엔티티 설계 시 주의점(가급적 Setter 사용 자제, 모든 연관관계는 지연 로딩으로 설정)
 
 
-3. **애플리케이션 구현 준비**
+3. [**애플리케이션 구현 준비**](https://mxxikr.github.io/posts/spring-boot-jpa-application-implementation-prep/)
    * 애플리케이션 아키텍처(계층형 구조) 설계
    * 회원, 상품, 주문 도메인의 핵심 비즈니스 요구사항 정의
 
 
-4. **회원 도메인 개발**
+4. [**회원 도메인 개발**](https://mxxikr.github.io/posts/spring-boot-jpa-member-domain-development/)
    * 회원 리포지토리(Repository) 및 회원 서비스(Service) 개발
    * JUnit5를 활용한 회원가입 및 중복 회원 예외 테스트 코드 작성
 
 
-5. **상품 도메인 개발**
+5. [**상품 도메인 개발**](https://mxxikr.github.io/posts/spring-boot-jpa-item-domain-development/)
    * 비즈니스 로직을 엔티티 내에 응집시킨 도메인 모델 패턴 적용
    * 상품 엔티티(Book, Album, Movie) 상속 구조 및 리포지토리/서비스 개발
 
 
-6. **주문 도메인 개발**
+6. [**주문 도메인 개발**](https://mxxikr.github.io/posts/spring-boot-jpa-order-domain-development/)
    * 주문(Order) 및 주문상품(OrderItem)의 생성 메서드와 비즈니스 로직(주문 취소, 가격 조회) 구현
    * 주문 서비스 개발 및 도메인 모델 패턴의 장점을 살린 단위 테스트 작성
    * JPA Criteria를 이용한 주문 검색(동적 쿼리) 기능 구현
 
 
-7. **웹 계층 개발**
+7. [**웹 계층 개발**](https://mxxikr.github.io/posts/spring-boot-jpa-web-layer-development/)
    * 홈 화면과 레이아웃(Bootstrap, Fragment) 적용
    * 회원 등록 및 조회, 상품 등록 및 목록 조회, 상품 수정 기능 구현
    * 변경 감지(Dirty Checking)와 병합(Merge)의 차이점 및 실무 권장 업데이트 방법
